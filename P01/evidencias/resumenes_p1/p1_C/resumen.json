@@ -1,0 +1,17 @@
+{
+  "sesion": "p1",
+  "config": {
+    "score_min": 0.0,
+    "split": "val",
+    "stride": 8,
+    "escalas": [
+      1.0,
+      0.8,
+      0.64,
+      0.512
+    ]
+  },
+  "segundos": 0.42936296699917875,
+  "imagenes": 6,
+  "cajas": 18
+}

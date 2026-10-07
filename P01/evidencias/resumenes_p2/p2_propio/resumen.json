@@ -1,0 +1,73 @@
+{
+  "sesion": "p2",
+  "config": {
+    "score_min": 0.85,
+    "split": "val",
+    "nms": 0.45,
+    "iou_eval": 0.3,
+    "origen_config": {
+      "score_min": -1.0,
+      "stride": 8,
+      "escalas": [
+        1.0,
+        0.8,
+        0.64,
+        0.512
+      ],
+      "split": "val+test",
+      "fuente": "Salida real del detector de referencia sobre im\u00e1genes sint\u00e9ticas"
+    }
+  },
+  "segundos": 0.02815792399997008,
+  "imagenes": 6,
+  "cajas": 20,
+  "TP": 11,
+  "FP": 9,
+  "FN": 2,
+  "precision": 0.55,
+  "recall": 0.8461538461538461,
+  "por_imagen": [
+    {
+      "id": "val_00",
+      "antes_nms": 1,
+      "despues_nms": 1,
+      "TP": 0,
+      "FP": 1
+    },
+    {
+      "id": "val_01",
+      "antes_nms": 3,
+      "despues_nms": 2,
+      "TP": 1,
+      "FP": 1
+    },
+    {
+      "id": "val_02",
+      "antes_nms": 6,
+      "despues_nms": 3,
+      "TP": 1,
+      "FP": 2
+    },
+    {
+      "id": "val_03",
+      "antes_nms": 5,
+      "despues_nms": 4,
+      "TP": 3,
+      "FP": 1
+    },
+    {
+      "id": "val_04",
+      "antes_nms": 11,
+      "despues_nms": 7,
+      "TP": 4,
+      "FP": 3
+    },
+    {
+      "id": "val_05",
+      "antes_nms": 5,
+      "despues_nms": 3,
+      "TP": 2,
+      "FP": 1
+    }
+  ]
+}

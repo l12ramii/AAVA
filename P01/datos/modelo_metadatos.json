@@ -1,0 +1,11 @@
+{
+  "semilla": 101,
+  "positivos": 400,
+  "negativos": 800,
+  "C": 0.1,
+  "descriptor": "HOG OpenCV 32/16/8/8/9, 324 dimensiones",
+  "exactitud_entrenamiento": 1.0,
+  "opencv": "4.14.0",
+  "numpy": "2.5.3",
+  "nota": "Exactitud de entrenamiento, no estimaci\u00f3n de generalizaci\u00f3n."
+}
