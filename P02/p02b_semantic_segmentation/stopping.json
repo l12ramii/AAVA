@@ -1,0 +1,6 @@
+{
+  "description": "REFERENCIA DOCENTE: al menos 5 épocas; parar tras 3 sin mejora de mIoU val superior a 0.002. El alumno debe proponer y justificar su propia regla.",
+  "min_epochs": 5,
+  "patience": 3,
+  "min_delta": 0.002
+}
